@@ -1,0 +1,30 @@
+<div class="box">
+    <!-- 轮播组件 -->
+    <app-wy-carousel #wyCarousel [activeIndex]='carouselActiveIndex' (ChangeSlide)='onChangeSlide($event)'>
+        <!-- 用[nzDotRender]='wyCarousel.dotRef'来替换轮播的下划线 -->
+        <!-- 小圆点的索引值是在这里获得的 (nzBeforeChange)EventEmitter<{ from: number; to: number }>-->
+        <nz-carousel nzAutoPlay 
+        (nzBeforeChange) = 'onBeforChange($event)'
+        [nzDotRender]='wyCarousel.dotRef'>
+            <div nz-carousel-content *ngFor="let item of array">
+                <a [href]="item.url" class="aimg">
+                    <img [src]="item.imageUrl" alt="">
+                </a>
+            </div>
+          </nz-carousel>
+    </app-wy-carousel>
+    <!-- 主题部位 -->
+    <div class="main">
+        <div class="warp">
+            <div class="left">
+                <!-- 热门推荐 -->
+                <div class="up"></div>
+                <!-- 歌单列表 -->
+                <div class="down"></div>
+            </div>
+            <div class="right">2</div>
+        </div>
+    </div>
+
+    <!-- 分类 -->
+</div>

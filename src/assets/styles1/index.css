@@ -1,0 +1,167 @@
+@import "~ng-zorro-antd/ng-zorro-antd.css";
+@import '~minireset.css';
+img {
+  display: inline-block;
+  width: 100%;
+}
+input:focus {
+  outline: none;
+}
+a {
+  color: inherit;
+}
+a:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+.pagination a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+.none {
+  display: none;
+}
+.full-height {
+  height: 100%;
+}
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+.clearfix:after {
+  clear: both;
+  content: '.';
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.f-brk {
+  word-wrap: break-word;
+  word-break: break-all;
+  white-space: normal;
+}
+.wrap {
+  width: 980px;
+  margin: 0 auto;
+}
+.feature-wrap {
+  min-height: 700px;
+  border: 1px solid #d3d3d3;
+  border-width: 0 1px;
+  background-color: #fff;
+}
+.tip-bg .ant-tooltip-inner {
+  background-color: #000;
+}
+.modal-content {
+  position: relative;
+}
+.modal-content .modal-wrap {
+  width: 300px;
+  margin: 0 auto;
+  padding: 30px 0 43px;
+}
+.modal-content .modal-wrap .ant-form-item {
+  margin-bottom: 14px;
+}
+.wy-sec {
+  margin-top: 27px;
+}
+.wy-sec .wy-sec-wrap {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #c10d0c;
+}
+.wy-sec .wy-sec-wrap .wy-sec-tit {
+  font-size: 20px;
+}
+.wy-table thead tr th {
+  background-color: #f7f7f7;
+}
+.wy-table tr td {
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px 16px;
+}
+.wy-table tr .first-col span {
+  display: inline-block;
+  width: 30px;
+}
+.wy-table tr .first-col .ico {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background: url('../images/table.png') no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  background-position: 0 -103px;
+  vertical-align: sub;
+}
+.wy-table tr .first-col .ico:hover {
+  background-position: 0 -128px;
+}
+.wy-table tr .first-col .ico.current {
+  background-position: -20px -128px;
+}
+.wy-table tr .song-name {
+  color: #1890ff;
+}
+.wy-table tr .time-col .icons {
+  display: none;
+  margin-bottom: 0;
+}
+.wy-table tr .time-col .icons .ico {
+  display: inline-block;
+  width: 18px;
+  height: 16px;
+  background: url('../images/table.png') no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  margin-left: 5px;
+}
+.wy-table tr .time-col .icons .ico.add {
+  margin-left: 0;
+  background-image: url(../images/icon.png);
+  background-position: 0 -700px;
+}
+.wy-table tr .time-col .icons .ico.add:hover {
+  background-position: -22px -700px;
+}
+.wy-table tr .time-col .icons .ico.like {
+  background-position: 0 -174px;
+}
+.wy-table tr .time-col .icons .ico.like:hover {
+  background-position: -20px -174px;
+}
+.wy-table tr .time-col .icons .ico.share {
+  background-position: 0 -195px;
+}
+.wy-table tr .time-col .icons .ico.share:hover {
+  background-position: -20px -195px;
+}
+.wy-table tr .time-col .icons .ico.download {
+  background-position: -81px -174px;
+}
+.wy-table tr .time-col .icons .ico.download:hover {
+  background-position: -104px -174px;
+}
+.wy-table tr:hover .time-col span {
+  display: none;
+}
+.wy-table tr:hover .time-col .icons {
+  display: block;
+}
+.highlight {
+  color: #0c73c2;
+}
+.margin-bottom-none {
+  margin-bottom: 0;
+}

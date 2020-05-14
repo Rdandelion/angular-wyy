@@ -1,0 +1,66 @@
+::ng-deep .ant-layout-header {
+  color: #fff;
+  height: 70px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.header {
+  width: 1000px;
+  height: 70px;
+  line-height: 70px;
+  margin: 0 auto;
+}
+.header a {
+  color: #fff;
+}
+.header h2 {
+  float: left;
+  color: #fff;
+  margin-right: 20px;
+  font-size: 18px;
+}
+.header .left {
+  float: left;
+}
+.header .right {
+  float: right;
+}
+.header .right .search {
+  float: right;
+  margin-right: 15px;
+}
+.header .right .search ::ng-deep .ant-input-affix-wrapper {
+  border-radius: 50px;
+}
+.header .right .creat {
+  float: right;
+}
+.header .right .creat ::ng-deep .ant-btn {
+  background-color: transparent;
+  border-radius: 50px;
+  color: #fff;
+  border: 1px solid #ccc;
+}
+.header .right .login {
+  float: right;
+}
+.header .menu {
+  float: left;
+  list-style: none;
+  height: 70px;
+}
+.header .menu li {
+  float: left;
+  color: #fff;
+}
+.header .menu li a {
+  padding: 0 20px;
+}
+.footer {
+  width: 1000px;
+  height: 70px;
+  margin: 0 auto;
+  text-align: center;
+}
